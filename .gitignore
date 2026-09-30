@@ -1,0 +1,69 @@
+# Environment and Secret Files
+.env
+.env.*
+!.env.example
+*.env
+
+# SQLite and Local Databases
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+backend/moodtune.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.venv/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node & Frontend
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Media and Audio Cache
+backend/app/assets/music_cache/
+*.mp3
+*.wav
+*.flac
+*.mp4
+
+# IDE & Editor Files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
